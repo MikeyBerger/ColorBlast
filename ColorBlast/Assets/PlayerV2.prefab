@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1108146851278101988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2858859522612874582}
+  m_Layer: 0
+  m_Name: ShootPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2858859522612874582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108146851278101988}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.795, y: -0.20599997, z: 1.781}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7696711093972894595}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7696711093972894594
 GameObject:
   m_ObjectHideFlags: 0
@@ -28,7 +58,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 6533396672357409774}
+  - {fileID: 2858859522612874582}
   m_Father: {fileID: 7696711095862178015}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -564,7 +596,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!114 &7696711095271281352
 MonoBehaviour:
@@ -624,15 +656,51 @@ MonoBehaviour:
     m_ActionId: 9ea9daa7-dad8-4bad-ac09-008a0c8d75d5
     m_ActionName: PlayerMap/Look[/DualShock4GamepadHID/rightStick,/DualShock4GamepadHID/rightStick,/DualShock4GamepadHID/rightStick,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7696711095271281399}
+        m_TargetAssemblyTypeName: PlayerControllerV2, Assembly-CSharp
+        m_MethodName: OnShootRed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: cc2f032a-dffb-4cbd-847d-ddaf9f86d95a
     m_ActionName: PlayerMap/ShootRed[/Keyboard/z,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID10/buttonEast]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7696711095271281399}
+        m_TargetAssemblyTypeName: PlayerControllerV2, Assembly-CSharp
+        m_MethodName: OnShootBlue
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 6b88c8be-11d0-455a-8da4-3916a956bac0
     m_ActionName: PlayerMap/ShootBlue[/Keyboard/x,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID10/buttonSouth]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7696711095271281399}
+        m_TargetAssemblyTypeName: PlayerControllerV2, Assembly-CSharp
+        m_MethodName: OnShootGreen
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 4f226f56-505f-41df-8a86-b333fbae7a6d
     m_ActionName: PlayerMap/ShootGreen[/Keyboard/c,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID10/buttonWest]
   m_NeverAutoSwitchControlSchemes: 0
@@ -655,6 +723,14 @@ MonoBehaviour:
   Cam: {fileID: 7696711093972894593}
   Speed: 50
   RotationSpeed: 100
+  ShootingRed: 0
+  ShootingBlue: 0
+  ShootingGreen: 0
+  RedBullet: {fileID: 8170108496111496084, guid: d8cd07289274147228109a375f4d9265, type: 3}
+  BlueBullet: {fileID: 9160243030039020800, guid: 8be35df45168f40fd8c96d1159c19889, type: 3}
+  GreenBullet: {fileID: 6805616464458154408, guid: cb0a613de432e4b8eb15a81984559bdf, type: 3}
+  ShootPoint: {fileID: 2858859522612874582}
+  Timer: 0
 --- !u!1 &7696711095862144193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1481,7 +1557,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7696711095862144287}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71de2e87001e34c69a32489cc689d251, type: 3}
   m_Name: 
@@ -2035,3 +2111,77 @@ Transform:
   m_Father: {fileID: 7696711095862178011}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6710909717480752133
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7696711093972894595}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.46
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.55999994
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.50008726
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.49991274
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.49991274
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.50008726
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+      propertyPath: m_Name
+      value: Bullpup_1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+--- !u!4 &6533396672357409774 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b9a6f1aa432964b33b2c0c1ccefa99a9, type: 3}
+  m_PrefabInstance: {fileID: 6710909717480752133}
+  m_PrefabAsset: {fileID: 0}
