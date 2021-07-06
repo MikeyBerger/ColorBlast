@@ -40,4 +40,5 @@ public struct PlayerInput
 	public Vector3 MoveInput;
 	public Vector2 MouseInput;
 	public bool JumpInput;
+    internal int playerIndex;
 }

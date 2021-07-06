@@ -513,7 +513,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7696711095862178015
 Transform:
   m_ObjectHideFlags: 0
@@ -541,7 +541,7 @@ Animator:
   m_GameObject: {fileID: 7696711095862144191}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: e57e9b8cd5e115f4f8d7736473e5c7fd, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 369e195c45305433aaa53bd80592e5a6, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -623,6 +623,18 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 9ea9daa7-dad8-4bad-ac09-008a0c8d75d5
     m_ActionName: PlayerMap/Look[/DualShock4GamepadHID/rightStick,/DualShock4GamepadHID/rightStick,/DualShock4GamepadHID/rightStick,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: cc2f032a-dffb-4cbd-847d-ddaf9f86d95a
+    m_ActionName: PlayerMap/ShootRed[/Keyboard/z,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID/buttonEast,/DualShock4GamepadHID10/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6b88c8be-11d0-455a-8da4-3916a956bac0
+    m_ActionName: PlayerMap/ShootBlue[/Keyboard/x,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID/buttonSouth,/DualShock4GamepadHID10/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4f226f56-505f-41df-8a86-b333fbae7a6d
+    m_ActionName: PlayerMap/ShootGreen[/Keyboard/c,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID10/buttonWest]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: PlayerMap
@@ -1335,6 +1347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7696711095862178111}
   - component: {fileID: 7696711095858962889}
+  - component: {fileID: 8609832672874494841}
   m_Layer: 0
   m_Name: RPG-Character-Mesh
   m_TagString: Untagged
@@ -1461,6 +1474,18 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.056757122, y: 0.0000053048134, z: 1.2835554}
     m_Extent: {x: 0.23875266, y: 1.3996761, z: 1.2893058}
   m_DirtyAABB: 0
+--- !u!114 &8609832672874494841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7696711095862144287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71de2e87001e34c69a32489cc689d251, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7696711095862144289
 GameObject:
   m_ObjectHideFlags: 0

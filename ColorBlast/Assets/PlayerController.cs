@@ -10,11 +10,13 @@ public class PlayerController : MonoBehaviour
     private Vector2 CamAngle;
     public float Speed;
     public float RotationSpeed;
+    private PlayerInput PI;
 
     // Start is called before the first frame update
     void Start()
     {
         RB = GetComponent<Rigidbody>();
+        PI = GetComponent<PlayerInput>();
     }
 
     // Update is called once per frame
@@ -27,6 +29,8 @@ public class PlayerController : MonoBehaviour
     {
         RB.velocity = new Vector3(Movement.x, 0, Movement.y) * Speed * Time.deltaTime;
         Rotate();
+
+
     }
 
 

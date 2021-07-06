@@ -6,17 +6,19 @@ using UnityEngine.InputSystem;
 public class PlayerControllerV2 : MonoBehaviour
 {
     private Rigidbody RB;
+    public PlayerInput PI;
     private Vector2 Movement;
     private Vector2 CamAngle;
     public Camera Cam;
     public float Speed;
     public float RotationSpeed;
-    private Vector3 CamSpeed;
+    //private Vector3 CamSpeed;
 
     // Start is called before the first frame update
     void Start()
     {
         RB = GetComponent<Rigidbody>();
+        PI = this.GetComponent<PlayerInput>();
     }
 
     // Update is called once per frame
@@ -32,6 +34,7 @@ public class PlayerControllerV2 : MonoBehaviour
         //Rotate();
         //RotateCam();
         Cam.transform.Rotate(0, CamAngle.x, 0);
+
     }
 
 
@@ -62,6 +65,11 @@ public class PlayerControllerV2 : MonoBehaviour
             Quaternion LookDirection = Quaternion.LookRotation(RotationDirection);
             Cam.transform.rotation = Quaternion.RotateTowards(Cam.transform.rotation, LookDirection, RotationSpeed * Time.deltaTime);
         }
+
+    }
+
+    void Color()
+    {
 
     }
 
