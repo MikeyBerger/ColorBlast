@@ -4309,3 +4309,404 @@ Received Import Request.
 Start importing Assets/DroneV4 (Green).prefab using Guid(8c0a8f4ef89ce4df6a4a0b7f015506b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f0dbfc8aff133b9e07eab6ffcb2c06') in 0.060765 seconds
   Import took 0.069489 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 110.810108 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Models/Weapons/2Hand-Sword.FBX
+  artifactKey: Guid(8a7b78e82902d1b4eba2923c6a4cf1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Models/Weapons/2Hand-Sword.FBX using Guid(8a7b78e82902d1b4eba2923c6a4cf1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89c987ce3b7d6e3fdea25eb83fefd5e') in 0.399388 seconds
+  Import took 0.472160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Mesh/Staircase.FBX
+  artifactKey: Guid(020947c1c8012f243a0e0fa43bd867f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Mesh/Staircase.FBX using Guid(020947c1c8012f243a0e0fa43bd867f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e019523bdb78a6e8b135b281a4d4d4') in 0.031327 seconds
+  Import took 0.036192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Models/Weapons/2Hand-Sword.FBX
+  artifactKey: Guid(8a7b78e82902d1b4eba2923c6a4cf1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Models/Weapons/2Hand-Sword.FBX using Guid(8a7b78e82902d1b4eba2923c6a4cf1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89c987ce3b7d6e3fdea25eb83fefd5e') in 0.032956 seconds
+  Import took 0.040404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.637841 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Models/Stage/Stage.FBX
+  artifactKey: Guid(d826937e74d22874882bc40d136547ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Models/Stage/Stage.FBX using Guid(d826937e74d22874882bc40d136547ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2f09386658e16acea063d278d6bf67') in 0.046550 seconds
+  Import took 0.050853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107397 seconds.
+  path: Assets/Ultimate Gun Pack by Quaternius/OBJ/Bullpup_1.obj
+  artifactKey: Guid(467c238b913cd442a8d7371d95ab7fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Gun Pack by Quaternius/OBJ/Bullpup_1.obj using Guid(467c238b913cd442a8d7371d95ab7fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde42a9689c470109882d1dfc1738599') in 0.377789 seconds
+  Import took 0.381539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097922 seconds.
+  path: Assets/Ultimate Gun Pack by Quaternius/OBJ/AssaultRifle2_4.obj
+  artifactKey: Guid(517bf62acc201490794736d88d06522c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Gun Pack by Quaternius/OBJ/AssaultRifle2_4.obj using Guid(517bf62acc201490794736d88d06522c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4ef6e0295bf51363c83b1f99ee00f5') in 0.053925 seconds
+  Import took 0.058582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Ultimate Gun Pack by Quaternius/OBJ/AssaultRifle2_2.obj
+  artifactKey: Guid(31eeeef2910784606a7a903e8570c2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Gun Pack by Quaternius/OBJ/AssaultRifle2_2.obj using Guid(31eeeef2910784606a7a903e8570c2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948fb456005443fb16039538749844aa') in 0.095589 seconds
+  Import took 0.099441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001548 seconds.
+  path: Assets/Ultimate Gun Pack by Quaternius/OBJ/AssaultRifle2_4.obj
+  artifactKey: Guid(517bf62acc201490794736d88d06522c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Gun Pack by Quaternius/OBJ/AssaultRifle2_4.obj using Guid(517bf62acc201490794736d88d06522c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4ef6e0295bf51363c83b1f99ee00f5') in 0.106533 seconds
+  Import took 0.111499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Ultimate Gun Pack by Quaternius/OBJ/AssaultRifle2_3.obj
+  artifactKey: Guid(ae67b672020254a6a9a564b8583a8588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Gun Pack by Quaternius/OBJ/AssaultRifle2_3.obj using Guid(ae67b672020254a6a9a564b8583a8588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761bd837df7c3e2eb54ed7876f5c28a8') in 0.061167 seconds
+  Import took 0.064525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.151951 seconds.
+  path: Assets/Ultimate Gun Pack by Quaternius/OBJ/AssaultRifle2_1.obj
+  artifactKey: Guid(2c0749192ebdc4c96b7db5e0210d40bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Gun Pack by Quaternius/OBJ/AssaultRifle2_1.obj using Guid(2c0749192ebdc4c96b7db5e0210d40bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e7f77f501daeeed83345936c89f6bc') in 0.072999 seconds
+  Import took 0.077903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005416 seconds.
+  path: Assets/Ultimate Gun Pack by Quaternius/OBJ/AssaultRifle2_1.obj
+  artifactKey: Guid(2c0749192ebdc4c96b7db5e0210d40bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Gun Pack by Quaternius/OBJ/AssaultRifle2_1.obj using Guid(2c0749192ebdc4c96b7db5e0210d40bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e7f77f501daeeed83345936c89f6bc') in 0.071161 seconds
+  Import took 0.077745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.482301 seconds.
+  path: Assets/Ultimate Gun Pack by Quaternius/OBJ/Bullpup_2.obj
+  artifactKey: Guid(3274c5d36ab7d40d7a06902a9168f080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Gun Pack by Quaternius/OBJ/Bullpup_2.obj using Guid(3274c5d36ab7d40d7a06902a9168f080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824687be0d064c46b0b6c4756163de82') in 0.061308 seconds
+  Import took 0.065758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006513 seconds.
+  path: Assets/Ultimate Gun Pack by Quaternius/OBJ/Bullpup_2.obj
+  artifactKey: Guid(3274c5d36ab7d40d7a06902a9168f080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Gun Pack by Quaternius/OBJ/Bullpup_2.obj using Guid(3274c5d36ab7d40d7a06902a9168f080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824687be0d064c46b0b6c4756163de82') in 0.078187 seconds
+  Import took 0.084719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.509458 seconds.
+  path: Assets/Ultimate Gun Pack by Quaternius/OBJ/Accessories/Grip.obj
+  artifactKey: Guid(d658759c559cc4643ba2e79eb3c80e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Gun Pack by Quaternius/OBJ/Accessories/Grip.obj using Guid(d658759c559cc4643ba2e79eb3c80e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030b8627e02311706a884895568a8d03') in 0.037659 seconds
+  Import took 0.042102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.458874 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Models/BasicMotionsDummyModel.fbx
+  artifactKey: Guid(5917c0e93d180a842b61d1ebc62a195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Models/BasicMotionsDummyModel.fbx using Guid(5917c0e93d180a842b61d1ebc62a195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475eed2657694e4b51b2738a8f405123') in 0.096470 seconds
+  Import took 0.105816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Fighter Pack Bundle FREE/Female Fighter Mecanim Animation Pack FREE/Characters/Female-Hair.FBX
+  artifactKey: Guid(5d81d0e6f22b34943a12a965c6f6ca40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighter Pack Bundle FREE/Female Fighter Mecanim Animation Pack FREE/Characters/Female-Hair.FBX using Guid(5d81d0e6f22b34943a12a965c6f6ca40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a2f08a26e50aa065a1f946ae847709') in 0.047605 seconds
+  Import took 0.052078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Models/Characters/HumanMeleeWarrior.fbx
+  artifactKey: Guid(9035850883732af4daf57c888e1fefce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Models/Characters/HumanMeleeWarrior.fbx using Guid(9035850883732af4daf57c888e1fefce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2f92a59d00b5caab3cd6c39308a6b2') in 0.057277 seconds
+  Import took 0.061273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Fighter Pack Bundle FREE/Female Fighter Mecanim Animation Pack FREE/Characters/Female.FBX
+  artifactKey: Guid(c1b3dfa6513051648a87476ced70583a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighter Pack Bundle FREE/Female Fighter Mecanim Animation Pack FREE/Characters/Female.FBX using Guid(c1b3dfa6513051648a87476ced70583a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53c633040413d18e278492ea3c0bbc0') in 0.245807 seconds
+  Import took 0.249956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Fighter Pack Bundle FREE/Heavy Fighter Mecanim Animation Pack FREE/Characters/Heavy.FBX
+  artifactKey: Guid(8232c9b8b57970e439a8c6d10fc534d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighter Pack Bundle FREE/Heavy Fighter Mecanim Animation Pack FREE/Characters/Heavy.FBX using Guid(8232c9b8b57970e439a8c6d10fc534d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79153a3221b19174df4303bb55631a16') in 0.038558 seconds
+  Import took 0.042067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Fighter Pack Bundle FREE/Male Fighter Mecanim Animation Pack FREE/Characters/Male.FBX
+  artifactKey: Guid(3067d36b7321e7842932d94ad2dbd80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighter Pack Bundle FREE/Male Fighter Mecanim Animation Pack FREE/Characters/Male.FBX using Guid(3067d36b7321e7842932d94ad2dbd80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7981ed1e371caeb6b0b5d1042f7247') in 0.050589 seconds
+  Import took 0.056319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Ultimate Gun Pack by Quaternius/FBX/Accessories/Grip.fbx
+  artifactKey: Guid(965de35125229499dad418dac2fb01df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Gun Pack by Quaternius/FBX/Accessories/Grip.fbx using Guid(965de35125229499dad418dac2fb01df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aba6706bf300e62969d9e8ad3510cf9') in 0.025953 seconds
+  Import took 0.030517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/Characters/Berserker.FBX
+  artifactKey: Guid(df7ef05fa87d48248ba181823b336391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/Characters/Berserker.FBX using Guid(df7ef05fa87d48248ba181823b336391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115b857b6b284df9351a3f0348812e38') in 0.050629 seconds
+  Import took 0.054700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.721399 seconds.
+  path: Assets/DroneV4 (Blue).prefab
+  artifactKey: Guid(85b55de76020343f6aa2b4808e42a4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DroneV4 (Blue).prefab using Guid(85b55de76020343f6aa2b4808e42a4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ad69a75dd18ce9b6fec18cb4052269') in 0.217125 seconds
+  Import took 0.268669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/DroneV4 (Green).prefab
+  artifactKey: Guid(8c0a8f4ef89ce4df6a4a0b7f015506b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DroneV4 (Green).prefab using Guid(8c0a8f4ef89ce4df6a4a0b7f015506b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47b5cb6c73b8964ceb3879e6f3963cc') in 0.041791 seconds
+  Import took 0.046460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/DroneV4(Red).prefab
+  artifactKey: Guid(bb0e6ab5647f745d3afe94d448d9773a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DroneV4(Red).prefab using Guid(bb0e6ab5647f745d3afe94d448d9773a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf528b8985ada5e8b758bb8c62121eb') in 0.060936 seconds
+  Import took 0.067068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 316.387907 seconds.
+  path: Assets/RedBullet.prefab
+  artifactKey: Guid(d8cd07289274147228109a375f4d9265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedBullet.prefab using Guid(d8cd07289274147228109a375f4d9265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970c0b286e5a802b3c5299b1c9504017') in 0.187122 seconds
+  Import took 0.191484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/BlueBullet.prefab
+  artifactKey: Guid(8be35df45168f40fd8c96d1159c19889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlueBullet.prefab using Guid(8be35df45168f40fd8c96d1159c19889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c55e53891d3787576c556b51827beb') in 0.032778 seconds
+  Import took 0.037683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/GreenBullet.prefab
+  artifactKey: Guid(cb0a613de432e4b8eb15a81984559bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenBullet.prefab using Guid(cb0a613de432e4b8eb15a81984559bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b984b8da4f4ed2790f959bdd205d045e') in 0.019836 seconds
+  Import took 0.024429 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005689 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.317 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1458 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.6 MB.
+System memory in use after: 248.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2269.
+Total: 13.660283 ms (FindLiveObjects: 1.822632 ms CreateObjectMapping: 0.139542 ms MarkObjects: 11.109180 ms  DeleteObjects: 0.586144 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16565.603159 seconds.
+  path: Assets/Drone.cs
+  artifactKey: Guid(9cd47fbed5c2f475d98a789f37a507c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone.cs using Guid(9cd47fbed5c2f475d98a789f37a507c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55eca488bef12d71019af5f5b018f8ea') in 0.170583 seconds
+  Import took 0.183978 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.610 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1457 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.7 MB.
+System memory in use after: 248.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 3.792641 ms (FindLiveObjects: 0.528962 ms CreateObjectMapping: 0.090697 ms MarkObjects: 2.988649 ms  DeleteObjects: 0.182042 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.668353 seconds.
+  path: Assets/EnemyScript.cs
+  artifactKey: Guid(cf25ddb403f1b412aa992d4547f017fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyScript.cs using Guid(cf25ddb403f1b412aa992d4547f017fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f39b6c63ee9261f9cc917485ce498d') in 0.051377 seconds
+  Import took 0.058050 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.394 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1458 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.0 MB.
+System memory in use after: 249.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2275.
+Total: 4.668121 ms (FindLiveObjects: 0.502472 ms CreateObjectMapping: 0.114139 ms MarkObjects: 3.864139 ms  DeleteObjects: 0.181068 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 722.336247 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Code
+  artifactKey: Guid(ae38c40fa89f94c49abce1e62fa61b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Code using Guid(ae38c40fa89f94c49abce1e62fa61b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de33e15cc34aaae01be06eaa8c9a781f') in 0.254129 seconds
+  Import took 0.526086 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002325 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find Tools for Unity bridge dll for Visual Studio for Mac /Applications/Visual Studio.app
+Mono: successfully reloaded assembly
+- Completed reload, in  2.181 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.3 MB.
+System memory in use after: 248.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2272.
+Total: 4.987928 ms (FindLiveObjects: 1.691886 ms CreateObjectMapping: 0.111410 ms MarkObjects: 3.062108 ms  DeleteObjects: 0.120865 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.034979 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/Player.prefab
+  artifactKey: Guid(0241e293f88c9ba4683c927a85520fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/Player.prefab using Guid(0241e293f88c9ba4683c927a85520fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81465db4b3683971304e90ee9cf704a') in 0.399181 seconds
+  Import took 0.404161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.779964 seconds.
+  path: Assets/ExplosiveLLC/SuperCharacterController/SuperCharacterControllerV2_README.pdf
+  artifactKey: Guid(fe1f813b74081844e91b76482155c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/SuperCharacterController/SuperCharacterControllerV2_README.pdf using Guid(fe1f813b74081844e91b76482155c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254245d0a1a6b7e5942eaf6eab66e8b8') in 2.085882 seconds
+  Import took 2.092228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 255.516694 seconds.
+  path: Assets/PlayerV2.prefab
+  artifactKey: Guid(ab2ceb9e94ad24a60b13bde993938363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerV2.prefab using Guid(ab2ceb9e94ad24a60b13bde993938363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60386484dfd2f7b02bb8f2ed1de45eed') in 1.873124 seconds
+  Import took 1.928479 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001206 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.946 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.5 MB.
+System memory in use after: 253.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2278.
+Total: 25.170988 ms (FindLiveObjects: 0.807279 ms CreateObjectMapping: 0.093041 ms MarkObjects: 24.052508 ms  DeleteObjects: 0.216049 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 643.389348 seconds.
+  path: Assets/EnemyScript.cs
+  artifactKey: Guid(cf25ddb403f1b412aa992d4547f017fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyScript.cs using Guid(cf25ddb403f1b412aa992d4547f017fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfafd684491188f51efd458aa4fb44d') in 0.070665 seconds
+  Import took 0.079309 seconds .
+
