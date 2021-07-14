@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108146851278101988}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.795, y: -0.20599997, z: 1.781}
+  m_LocalPosition: {x: 1.46, y: -0.112, z: 1.826}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7696711093972894595}
@@ -541,7 +541,7 @@ GameObject:
   - component: {fileID: 7696711095271281399}
   m_Layer: 0
   m_Name: PlayerV2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -720,9 +720,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f0f6278006194bc0af1ab77d7f27eac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PI: {fileID: 0}
   Cam: {fileID: 7696711093972894593}
-  Speed: 50
+  Speed: 75
   RotationSpeed: 100
+  BulletForce: 3
   ShootingRed: 0
   ShootingBlue: 0
   ShootingGreen: 0
@@ -730,7 +732,7 @@ MonoBehaviour:
   BlueBullet: {fileID: 9160243030039020800, guid: 8be35df45168f40fd8c96d1159c19889, type: 3}
   GreenBullet: {fileID: 6805616464458154408, guid: cb0a613de432e4b8eb15a81984559bdf, type: 3}
   ShootPoint: {fileID: 2858859522612874582}
-  Timer: 0
+  Timer: -1
 --- !u!1 &7696711095862144193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1557,7 +1559,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7696711095862144287}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71de2e87001e34c69a32489cc689d251, type: 3}
   m_Name: 
