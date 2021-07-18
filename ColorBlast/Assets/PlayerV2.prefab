@@ -539,6 +539,7 @@ GameObject:
   - component: {fileID: 7696711095271281396}
   - component: {fileID: 7696711095271281352}
   - component: {fileID: 7696711095271281399}
+  - component: {fileID: 6751291210024689102}
   m_Layer: 0
   m_Name: PlayerV2
   m_TagString: Player
@@ -703,6 +704,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 4f226f56-505f-41df-8a86-b333fbae7a6d
     m_ActionName: PlayerMap/ShootGreen[/Keyboard/c,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID10/buttonWest]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9c52e569-10ba-4e5a-9744-6b8c793fd173
+    m_ActionName: PlayerMap/Pause[/DualShock4GamepadHID/select,/DualShock4GamepadHID/select,/DualShock4GamepadHID/select,/DualShock4GamepadHID/select,/DualShock4GamepadHID/select,/DualShock4GamepadHID/select,/DualShock4GamepadHID/select,/DualShock4GamepadHID/select,/DualShock4GamepadHID/select,/DualShock4GamepadHID/select,/DualShock4GamepadHID/select,/DualShock4GamepadHID/start,/DualShock4GamepadHID/start,/DualShock4GamepadHID/start,/DualShock4GamepadHID/start,/DualShock4GamepadHID/start,/DualShock4GamepadHID/start,/DualShock4GamepadHID/start,/DualShock4GamepadHID/start,/DualShock4GamepadHID/start,/DualShock4GamepadHID/start,/DualShock4GamepadHID/start,/Keyboard/p]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: PlayerMap
@@ -733,6 +738,19 @@ MonoBehaviour:
   GreenBullet: {fileID: 6805616464458154408, guid: cb0a613de432e4b8eb15a81984559bdf, type: 3}
   ShootPoint: {fileID: 2858859522612874582}
   Timer: -1
+--- !u!65 &6751291210024689102
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7696711095862144191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.5, z: 1}
+  m_Center: {x: 0, y: 1.1, z: 0}
 --- !u!1 &7696711095862144193
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,8 @@ TagManager:
   - BlueBullet
   - GreenBullet
   - Enemy
+  - Fire
+  - GameManager
   layers:
   - Default
   - TransparentFX

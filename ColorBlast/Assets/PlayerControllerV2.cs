@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerControllerV2 : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerControllerV2 : MonoBehaviour
     public PlayerInput PI;
     private Vector2 Movement;
     private Vector2 CamAngle;
+    private UIScript UIS;
     public Camera Cam;
     public float Speed;
     public float RotationSpeed;
@@ -16,6 +18,8 @@ public class PlayerControllerV2 : MonoBehaviour
     public bool ShootingRed;
     public bool ShootingBlue;
     public bool ShootingGreen;
+    private bool IsPaused;
+    private bool Return;
     public Transform RedBullet;
     public Transform BlueBullet;
     public Transform GreenBullet;
@@ -73,6 +77,7 @@ public class PlayerControllerV2 : MonoBehaviour
     {
         RB = GetComponent<Rigidbody>();
         PI = this.GetComponent<PlayerInput>();
+        UIS = GameObject.FindGameObjectWithTag("GameManager").GetComponent<UIScript>();
     }
 
     // Update is called once per frame
@@ -90,6 +95,19 @@ public class PlayerControllerV2 : MonoBehaviour
         //RotateCam();
         Cam.transform.Rotate(0, CamAngle.x, 0);
 
+        if (IsPaused)
+        {
+            Time.timeScale = 0;
+        }
+        else if (!IsPaused)
+        {
+            Time.timeScale = 1;
+        }
+
+        if (UIS.GameOver2 && Return)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 
 
@@ -216,6 +234,30 @@ public class PlayerControllerV2 : MonoBehaviour
             ShootingRed = false;
             ShootingBlue = false;
             ShootingGreen = true;
+        }
+    }
+
+    public void OnPause(InputAction.CallbackContext ctx)
+    {
+        if (ctx.phase == InputActionPhase.Performed && !IsPaused)
+        {
+            IsPaused = true;
+        }
+        else if (ctx.phase == InputActionPhase.Performed && IsPaused)
+        {
+            IsPaused = false;
+        }
+    }
+
+    public void OnReturn(InputAction.CallbackContext ctx)
+    {
+        if (ctx.phase == InputActionPhase.Performed && UIS.GameOver2)
+        {
+            SceneManager.LoadScene(0);
+        }
+        else if (ctx.phase == InputActionPhase.Performed && IsPaused)
+        {
+            SceneManager.LoadScene(0);
         }
     }
     #endregion
