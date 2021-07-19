@@ -22,14 +22,16 @@ public class UIScript : MonoBehaviour
         GameOverText.enabled = false;
         GameOverText.text = "Game Over";
 
-        Timer = StartTime;
+        //Timer = StartTime;
+        StartTime = 180;
 
-        CountDownText.text = Timer.ToString();
+        //CountDownText.text = Timer.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
+        /*
         Timer -= Time.deltaTime;
         CountDownText.text = Timer.ToString();
         PointText.text = "Points: " + Points.ToString();
@@ -40,6 +42,13 @@ public class UIScript : MonoBehaviour
             GameOverText.enabled = true;
             GameOver2 = true;
         }
+        */
+        float t = StartTime - Time.time;
+
+        string Minutes = ((int)t / 60).ToString();
+        string Seconds = (t % 60).ToString("f2");
+
+        CountDownText.text = Minutes + ":" + Seconds;
     }
 
    
