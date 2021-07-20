@@ -19,7 +19,6 @@ public class PlayerControllerV2 : MonoBehaviour
     public bool ShootingBlue;
     public bool ShootingGreen;
     private bool IsPaused;
-    private bool Return;
     public Transform RedBullet;
     public Transform BlueBullet;
     public Transform GreenBullet;
@@ -104,10 +103,7 @@ public class PlayerControllerV2 : MonoBehaviour
             Time.timeScale = 1;
         }
 
-        if (UIS.GameOver2 && Return)
-        {
-            SceneManager.LoadScene(0);
-        }
+
     }
 
 

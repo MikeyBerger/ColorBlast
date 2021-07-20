@@ -8,10 +8,13 @@ public class UIScript : MonoBehaviour
 {
     public float StartTime;
     public float Timer;
-    public float Points;
+    public int Points;
+    public int HiScore;
     public Text CountDownText;
     public Text GameOverText;
     public Text PointText;
+    public Canvas InGameCanvas;
+    public Canvas GameOverCanvas;
     public bool GameOver;
     public bool GameOver2;
 
@@ -19,11 +22,12 @@ public class UIScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameOverText.enabled = false;
-        GameOverText.text = "Game Over";
+//        GameOverText.enabled = false;
+  //      GameOverText.text = "Game Over";
 
         //Timer = StartTime;
         StartTime = 180;
+        HiScore = PlayerPrefs.GetInt("HiScore", 0);
 
         //CountDownText.text = Timer.ToString();
     }
@@ -35,14 +39,30 @@ public class UIScript : MonoBehaviour
         Timer -= Time.deltaTime;
         CountDownText.text = Timer.ToString();
         PointText.text = "Points: " + Points.ToString();
+        */
 
-        if (Timer <= 0)
+        if (StartTime <= 0)
         {
-            CountDownText.enabled = false;
-            GameOverText.enabled = true;
+            InGameCanvas.enabled = false;
+            GameOverCanvas.enabled = true;
+            //CountDownText.enabled = false;
+            //GameOverText.enabled = true;
             GameOver2 = true;
         }
-        */
+
+        if (Points > HiScore)
+        {
+            HiScore = Points;
+            PlayerPrefs.SetInt("HiScore", HiScore);
+        }
+        
+
+        //Use this method
+        TimerMethodV2();
+    }
+
+    private void TimerMethodV2()
+    {
         float t = StartTime - Time.time;
 
         string Minutes = ((int)t / 60).ToString();
@@ -51,5 +71,4 @@ public class UIScript : MonoBehaviour
         CountDownText.text = Minutes + ":" + Seconds;
     }
 
-   
 }

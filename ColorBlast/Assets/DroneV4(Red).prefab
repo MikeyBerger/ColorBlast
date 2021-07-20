@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7721599373883771693}
   m_Layer: 0
   m_Name: Quad Sphere
-  m_TagString: Untagged
+  m_TagString: QuadSphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 8594520089877778738}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: Cylinder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5229,7 +5229,7 @@ GameObject:
   - component: {fileID: 8545481918295887703}
   m_Layer: 0
   m_Name: Cylinder.001
-  m_TagString: Untagged
+  m_TagString: Cylinder.001
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
